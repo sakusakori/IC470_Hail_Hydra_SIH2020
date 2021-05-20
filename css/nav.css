@@ -1,0 +1,19 @@
+nav {
+    background-color: #303030;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 24px 6px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media screen and (min-width:992px) {
+    .nav-link:hover {
+        background-color: rgba(188, 210, 252, 0.2);
+        border-radius: 10px;
+        color: #fff;
+    }
+}
